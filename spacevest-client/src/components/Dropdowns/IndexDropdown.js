@@ -29,42 +29,36 @@ const IndexDropdown = () => {
         }}
       >
         <Link
-          to="/admin/dashboard"
+          to="/admin/landing"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
-          Dashboard
-        </Link>
-        <Link
-          to="/admin/settings"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
-        >
-          Settings
+          About
         </Link>
         <Link
           to="/admin/tables"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
-          Tables
+          Explore
         </Link>
         <Link
-          to="/admin/maps"
+          to="/admin/spacevest"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
-          Maps
+          SpaceVest
         </Link>
-      
         <Link
-          to="/admin/landing"
+          to="/admin/dashboard"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
-          Landing
+          Dashboard
         </Link>
-        <Link
-          to="/admin/profile"
+        {/* <Link
+          to="/admin/settings"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Profile
-        </Link>
+        </Link> */}
+
       </a>
       <div
         ref={popoverDropdownRef}

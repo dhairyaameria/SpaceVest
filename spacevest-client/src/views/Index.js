@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <>
       <IndexNavbar fixed />
-      <section className="flex justify-content-center h-screen max-h-860-px" style={{
+      <section className="flex justify-content-center h-screen min-h-860-px max-h-860-px" style={{
       backgroundImage: `url(${image})`,
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover'

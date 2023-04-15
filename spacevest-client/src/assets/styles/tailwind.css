@@ -3038,3 +3038,8 @@ select {
 
 @media (min-width: 1536px) {
 }
+
+
+.zoom:hover img {
+  transform: scale(1.1);
+}
