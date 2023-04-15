@@ -1,5 +1,5 @@
 import React from "react";
-import book from "../../../assets/img/book.jpg"
+import stocks from "../../../assets/img/stocks.jpg"
 import mars from "../../../assets/img/mars.jpeg"
 import merc from "../../../assets/img/mercury.jpeg"
 import asteroid from "../../../assets/img/asteroid.jpeg"
@@ -116,11 +116,11 @@ export default function Spacevest() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={book}
+                    src={stocks}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <button className="text-xl text-white font-bold">Sustainable Real Estate</button>
+                    <button className="text-xl text-white font-bold">Stocks on Mars</button>
                     
                     <div className="mt-6">
                   
@@ -136,7 +136,7 @@ export default function Spacevest() {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <button className="text-xl text-white font-bold">Asteriod Mining Projects</button>
+                    <button className="text-xl text-white font-bold">Asteriod Mining</button>
                     
                     <div className="mt-6">
                   
