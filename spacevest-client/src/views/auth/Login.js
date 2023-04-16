@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import qr from "../../assets/img/qr.png"
 
 export default function Login() {
   return (
@@ -13,6 +14,7 @@ export default function Login() {
                   <h6 className="text-blueGray-500 text-sm font-bold">
                     Sign in with
                   </h6>
+                 
                 </div>
                 <div className="btn-wrapper text-center">
                   <button
@@ -44,7 +46,12 @@ export default function Login() {
                 <div className="text-blueGray-400 text-center mb-3 font-bold">
                   <small>Or sign in with credentials</small>
                 </div>
-                <form>
+                <img
+                    alt="..."
+                    src={qr}
+                    className="shadow-lg mx-auto max-w-120-px"
+                  />
+                {/* <form>
                   <div className="relative w-full mb-3">
                     <label
                       className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
@@ -93,10 +100,10 @@ export default function Login() {
                       Sign In
                     </button>
                   </div>
-                </form>
+                </form> */}
               </div>
             </div>
-            <div className="flex flex-wrap mt-6 relative">
+            {/* <div className="flex flex-wrap mt-6 relative">
               <div className="w-1/2">
                 <a
                   href="#pablo"
@@ -111,7 +118,7 @@ export default function Login() {
                   <small>Create new account</small>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

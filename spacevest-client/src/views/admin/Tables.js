@@ -101,7 +101,8 @@ export default function Tables() {
   ], [])
 
   const data = React.useMemo(() => getData(), [])
-
+  console.log(data)
+  console.log(columns)
 
   return (
     <>
