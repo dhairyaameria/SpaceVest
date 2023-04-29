@@ -44,7 +44,7 @@ export default function Navbar(props) {
                   type="button" >
                    <Link to="/auth/login">
                   <i className="fas fa-fingerprint text-white 0 mr-2 text-sm"></i>{" "}
-                  Login
+                  Get Started
                 </Link>
                 </button>
               </li>
